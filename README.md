@@ -5,11 +5,7 @@ A deep learning time-series forecasting project that compares a stacked LSTM mod
 
 The project demonstrates multivariate time-series preprocessing, temporal train/test splitting, leakage-safe scaling, sequence-window creation, recurrent modeling, positional encoding, multi-head self-attention, and performance comparison using regression metrics.
 
-## Open in Google Colab
 
-After pushing this repository to GitHub, replace `<your-github-username>` in the link below:
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-github-username>/weather-forecasting-lstm-transformer/blob/main/notebooks/weather_forecasting_lstm_transformer_clean.ipynb)
 
 ## Project Objective
 
@@ -42,12 +38,12 @@ weather-forecasting-lstm-transformer/
 |-- requirements.txt
 |-- .gitignore
 |
-|-- notebooks/
+|-- Notebooks/
 |   |-- weather_forecasting_lstm_transformer_clean.ipynb
 |   |-- weather_forecasting_lstm_transformer_executed.ipynb
 |
-|-- reports/
-|   |-- figures/
+|-- Reports/
+|   |-- Figures/
 |   |   |-- weather_feature_trends.png
 |   |   |-- train_test_split.png
 |   |   |-- lstm_predictions.png
@@ -60,7 +56,7 @@ weather-forecasting-lstm-transformer/
 |   |-- Analysis/
 |       |-- model_analysis.md
 |
-|-- data/
+|-- Data/
     |-- README.md
 ```
 
@@ -250,7 +246,7 @@ pip install -r requirements.txt
 Open the clean notebook:
 
 ```bash
-jupyter notebook notebooks/weather_forecasting_lstm_transformer_clean.ipynb
+jupyter notebook Notebooks/weather_forecasting_lstm_transformer_clean.ipynb
 ```
 
 ## Tech Stack
