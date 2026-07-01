@@ -1,0 +1,129 @@
+# ==============================
+# LSTM / Transformer Weather Forecasting Project
+# Git ignore rules
+# ==============================
+
+# ------------------------------
+# Python cache and build files
+# ------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# ------------------------------
+# Jupyter / Notebook checkpoints
+# ------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ------------------------------
+# Virtual environments
+# ------------------------------
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# ------------------------------
+# Environment variables / secrets
+# ------------------------------
+.env
+.env.*
+*.env
+secrets.json
+credentials.json
+token.json
+
+# ------------------------------
+# OS and editor files
+# ------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ------------------------------
+# Raw data and downloaded datasets
+# Keep Data/README.md or data/README.md only
+# ------------------------------
+Data/*
+!Data/README.md
+!Data/.gitkeep
+
+data/*
+!data/README.md
+!data/.gitkeep
+
+# Common downloaded dataset files
+jena_climate_2009_2016.csv
+jena_climate_2009_2016.csv.zip
+*.zip
+*.gz
+*.tar
+*.tar.gz
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+
+# ------------------------------
+# TensorFlow / Keras / dataset caches
+# ------------------------------
+tensorflow_datasets/
+keras_datasets/
+.keras/
+.cache/
+tfds/
+tf_cache/
+
+# ------------------------------
+# Model artifacts and checkpoints
+# ------------------------------
+*.h5
+*.keras
+*.weights.h5
+*.ckpt
+*.ckpt.*
+checkpoints/
+model_checkpoints/
+saved_model/
+SavedModel/
+models/
+*.pkl
+*.pickle
+*.joblib
+
+# ------------------------------
+# Training logs and experiment trackers
+# ------------------------------
+logs/
+tensorboard/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+
+# ------------------------------
+# Temporary outputs
+# ------------------------------
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ------------------------------
+# Assignment/export artifacts not needed for GitHub portfolio
+# Uncomment the next line only if you do NOT want to upload HTML exports
+# *.html
